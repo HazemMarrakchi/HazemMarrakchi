@@ -1,0 +1,43 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hazem Marrakchi — Software Engineer">
+  <defs>
+    <linearGradient id="bgg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070D"/>
+      <stop offset="1" stop-color="#0A0F1C"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 60) scale(430)">
+      <stop stop-color="#22D3EE" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 290) scale(450)">
+      <stop stop-color="#A78BFA" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="320" rx="20" fill="url(#bgg)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#glow1)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#glow2)"/>
+
+  <circle cx="250" cy="48" r="2.5" fill="#22D3EE" opacity="0.45"/>
+  <circle cx="420" cy="270" r="2" fill="#A78BFA" opacity="0.4"/>
+  <circle cx="620" cy="60" r="2" fill="#A78BFA" opacity="0.35"/>
+  <circle cx="760" cy="240" r="2.5" fill="#22D3EE" opacity="0.4"/>
+  <circle cx="905" cy="70" r="2" fill="#22D3EE" opacity="0.45"/>
+  <circle cx="330" cy="150" r="1.8" fill="#E2E8F0" opacity="0.25"/>
+  <circle cx="700" cy="140" r="1.8" fill="#E2E8F0" opacity="0.2"/>
+  <circle cx="540" cy="200" r="2" fill="#22D3EE" opacity="0.3"/>
+
+  <circle cx="1052" cy="160" r="118" stroke="#22D3EE" stroke-opacity="0.26"/>
+  <circle cx="1052" cy="160" r="82" stroke="#A78BFA" stroke-opacity="0.34"/>
+  <circle cx="1052" cy="160" r="46" stroke="#22D3EE" stroke-opacity="0.2"/>
+  <path d="M1052 126 L1081 143 L1081 177 L1052 194 L1023 177 L1023 143 Z" stroke="#A78BFA" stroke-opacity="0.55"/>
+  <circle cx="1052" cy="160" r="7" fill="url(#acc)" opacity="0.9"/>
+
+  <text x="72" y="138" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="1" fill="#E2E8F0">HAZEM <tspan fill="url(#acc)">MARRAKCHI</tspan></text>
+  <rect x="74" y="162" width="232" height="4" rx="2" fill="url(#acc)"/>
+  <text x="72" y="212" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="25" fill="#94A3B8">Software Engineer &#183; Full Stack Developer</text>
+  <text x="72" y="252" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#64748B">Angular &#183; Node.js &#183; Spring Boot &#183; FastAPI &#183; AI Integration</text>
+</svg>
