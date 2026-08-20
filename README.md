@@ -40,6 +40,12 @@
 <img src="https://github-readme-stats.vercel.app/api?username=HazemMarrakchi&show_icons=true&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=a78bfa&text_color=e2e8f0&include_all_commits=true&count_private=true" alt="GitHub stats" width="49%"/>
 <img src="https://streak-stats.demolab.com?user=HazemMarrakchi&hide_border=true&background=00000000&ring=22d3ee&fire=a78bfa&currStreakLabel=e2e8f0&sideLabels=94a3b8&dates=64748b" alt="GitHub streak" width="49%"/>
 
+<br/>
+
+### Contribution Snake
+
+<img src="https://raw.githubusercontent.com/HazemMarrakchi/HazemMarrakchi/output/github-contribution-grid-snake.svg?v=2026-08-21" alt="Contribution snake animation — a cyan snake eating my contribution graph, dots glowing from deep navy to violet" width="100%"/>
+
 ---
 
 *Open to new opportunities — my inbox is open:* **hazemmrk12@gmail.com**
