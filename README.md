@@ -1,4 +1,4 @@
-﻿<img src="./banner.svg" alt="Hazem Marrakchi â€” Software Engineer & Full Stack Developer" width="100%"/>
+﻿<img src="./banner.svg" alt="Hazem Marrakchi — Software Engineer & Full Stack Developer" width="100%"/>
 
 <p align="center">
   <picture>
@@ -8,7 +8,7 @@
   </picture>
 </p>
 
-**Software Engineer & Full Stack Developer** based in GabÃ¨s, Tunisia â€” I design and build modern web platforms, and wire them to intelligence.
+**Software Engineer & Full Stack Developer** based in Gabès, Tunisia — I design and build modern web platforms, and wire them to intelligence.
 
 <p align="center">
   <a href="https://portfolio-swart-pi-efwv7wn6oo.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Live_Demo-22d3ee?style=for-the-badge&logo=vercel" alt="Portfolio"/></a>
@@ -19,10 +19,10 @@
 
 ### Engineering Focus
 
-- Full stack web platforms â€” **Angular / React** frontends, **Node.js Â· Spring Boot Â· FastAPI** backends
+- Full stack web platforms — **Angular / React** frontends, **Node.js · Spring Boot · FastAPI** backends
 - **AI integration** in real products: prediction features with Scikit-learn on production data flows
 - Service-oriented architecture, secure REST APIs, SQL/NoSQL data modeling
-- EUR-ACEÂ® accredited Software Engineering degree (ESSAT GabÃ¨s)
+- EUR-ACE® accredited Software Engineering degree (ESSAT Gabès)
 
 ---
 
@@ -44,7 +44,7 @@
 
 | | |
 |---|---|
-| **[3D Interactive Portfolio](https://portfolio-swart-pi-efwv7wn6oo.vercel.app)** | Immersive WebGL experience built with React 19 + Three.js r185 â€” particle field, mouse-parallax camera, bilingual EN/FR, glassmorphism design system. `React` `Three.js` `TypeScript` `Tailwind` |
+| **[3D Interactive Portfolio](https://portfolio-swart-pi-efwv7wn6oo.vercel.app)** | Immersive WebGL experience built with React 19 + Three.js r185 — particle field, mouse-parallax camera, bilingual EN/FR, glassmorphism design system. `React` `Three.js` `TypeScript` `Tailwind` |
 
 ---
 
@@ -77,4 +77,4 @@
 
 ---
 
-*Open to new opportunities â€” my inbox is open:* **hazemmrk12@gmail.com**
+*Open to new opportunities — my inbox is open:* **hazemmrk12@gmail.com**
