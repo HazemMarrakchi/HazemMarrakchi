@@ -3,7 +3,7 @@
   <rect x="0.5" y="0.5" width="429" height="169" rx="12" fill="#0A0F1C" stroke="#1C2740"/>
   <rect x="14" y="14" width="402" height="4" rx="2" fill="url(#acc_github_dark_PROFILE_)"/>
   <text x="24" y="48" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#22D3EE">PROFILE</text>
-  <text x="24" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">5</text>
+  <text x="24" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">6</text>
   <text x="24" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Public Repositories</text>
   <text x="230" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">5</text>
   <text x="230" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Stars Earned</text>
