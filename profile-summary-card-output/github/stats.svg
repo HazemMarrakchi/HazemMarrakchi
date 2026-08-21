@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="170" viewBox="0 0 430 170" fill="none" role="img">
+  <defs><linearGradient id="acc_github_ACTIVITY____LAST_12_MONTHS_" x1="0" y1="0" x2="430" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="429" height="169" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <rect x="14" y="14" width="402" height="4" rx="2" fill="url(#acc_github_ACTIVITY____LAST_12_MONTHS_)"/>
+  <text x="24" y="48" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#0891B2">ACTIVITY · LAST 12 MONTHS</text>
+  <text x="24" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#24292F">0</text>
+  <text x="24" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606A">Commits · 1 Year</text>
+  <text x="230" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#24292F">0</text>
+  <text x="230" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606A">Pull Requests</text>
+  <text x="24" y="148" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#24292F">0</text>
+  <text x="24" y="168" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606A">Code Reviews</text>
+  <text x="230" y="148" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#24292F">0</text>
+  <text x="230" y="168" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#57606A">Issues Opened</text>
+</svg>
