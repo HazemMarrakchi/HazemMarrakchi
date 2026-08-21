@@ -19,7 +19,8 @@
 
 ### Engineering Focus
 
-- Full stack web platforms — **Angular / React** frontends, **Node.js · Spring Boot · FastAPI** backends
+- Full stack web platforms — **Angular / React** frontends, **Node.js · NestJS · Spring Boot · FastAPI** backends
+- **Regulatory-compliance engineering**: EU e-invoicing standards (EN 16931, UBL 2.1 / Peppol BIS, XRechnung) turned into production software
 - **AI integration** in real products: prediction features with Scikit-learn on production data flows
 - Service-oriented architecture, secure REST APIs, SQL/NoSQL data modeling
 - EUR-ACE® accredited Software Engineering degree (ESSAT Gabès)
@@ -34,7 +35,7 @@
   </a>
   <br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mongodb,mysql,docker,azure,linux,tailwind,bootstrap,php,cpp,git&perline=10" alt="data, devops & tools"/>
+    <img src="https://skillicons.dev/icons?i=mongodb,mysql,docker,azure,linux,tailwind,nestjs,bootstrap,php,cpp&perline=10" alt="data, devops & tools"/>
   </a>
 </p>
 
