@@ -11,7 +11,7 @@
 **Software Engineer & Full Stack Developer** based in Gabès, Tunisia — I design and build modern web platforms, and wire them to intelligence.
 
 <p align="center">
-  <a href="https://portfolio-swart-pi-efwv7wn6oo.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Live_Demo-22d3ee?style=for-the-badge&logo=vercel" alt="Portfolio"/></a>
+  <a href="https://hazemmarrakchi.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-Live_Demo-22d3ee?style=for-the-badge&logo=github" alt="Portfolio"/></a>
   <a href="mailto:hazemmrk12@gmail.com"><img src="https://img.shields.io/badge/Contact-hazemmrk12@gmail.com-a78bfa?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -40,11 +40,12 @@
 
 ---
 
-### Featured Project
+### Featured Projects
 
 | | |
 |---|---|
-| **[3D Interactive Portfolio](https://portfolio-swart-pi-efwv7wn6oo.vercel.app)** | Immersive WebGL experience built with React 19 + Three.js r185 — particle field, mouse-parallax camera, bilingual EN/FR, glassmorphism design system. `React` `Three.js` `TypeScript` `Tailwind` |
+| **[Facturia — EU E-Invoicing SaaS](https://hazemmarrakchi.github.io/facturia/)** | Production-grade e-invoicing platform: EN 16931 / Peppol BIS / XRechnung documents, invoice lifecycle with per-org numbering, GDPR audit trail and an AI copilot. NestJS + React monorepo — live demo backed by a real deployed API. `NestJS` `React` `TypeScript` `Drizzle` `Playwright` `Docker` |
+| **[3D Interactive Portfolio](https://hazemmarrakchi.github.io/portfolio/)** | Immersive WebGL experience built with React 19 + Three.js r185 — particle field, mouse-parallax camera, bilingual EN/FR, glassmorphism design system. `React` `Three.js` `TypeScript` `Tailwind` |
 
 ---
 
