@@ -52,14 +52,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=HazemMarrakchi&show_icons=true&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=a78bfa&text_color=e2e8f0&include_all_commits=true&count_private=false&cache_seconds=43200" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=HazemMarrakchi&show_icons=true&hide_border=true&bg_color=00000000&title_color=0891b2&icon_color=7c3aed&text_color=24292f&include_all_commits=true&count_private=false&cache_seconds=43200" />
-    <img src="https://github-readme-stats.vercel.app/api?username=HazemMarrakchi&show_icons=true&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=a78bfa&text_color=e2e8f0&include_all_commits=true&count_private=false&cache_seconds=43200" alt="GitHub stats" width="49%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/profile-details.svg?v=20260821" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/profile-details.svg?v=20260821" />
+    <img src="./profile-summary-card-output/github_dark/profile-details.svg?v=20260821" alt="Profile details card" width="49%"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=HazemMarrakchi&hide_border=true&background=00000000&ring=22d3ee&fire=a78bfa&currStreakLabel=e2e8f0&sideLabels=94a3b8&dates=64748b&currStreakNum=e2e8f0&sideNums=e2e8f0" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=HazemMarrakchi&hide_border=true&background=00000000&ring=0891b2&fire=7c3aed&currStreakLabel=24292f&sideLabels=57606a&dates=6e7781&currStreakNum=24292f&sideNums=24292f" />
-    <img src="https://streak-stats.demolab.com?user=HazemMarrakchi&hide_border=true&background=00000000&ring=22d3ee&fire=a78bfa&currStreakLabel=e2e8f0&sideLabels=94a3b8&dates=64748b&currStreakNum=e2e8f0&sideNums=e2e8f0" alt="GitHub streak" width="49%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/stats.svg?v=20260821" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/stats.svg?v=20260821" />
+    <img src="./profile-summary-card-output/github_dark/stats.svg?v=20260821" alt="GitHub statistics card" width="49%"/>
   </picture>
 </p>
 
