@@ -46,6 +46,7 @@
 | | |
 |---|---|
 | **[Facturia — EU E-Invoicing SaaS](https://hazemmarrakchi.github.io/facturia/)** | Production-grade e-invoicing platform: EN 16931 / Peppol BIS / XRechnung documents, invoice lifecycle with per-org numbering, GDPR audit trail and an AI copilot. NestJS + React monorepo — live demo backed by a real deployed API. `NestJS` `React` `TypeScript` `Drizzle` `Playwright` `Docker` |
+| **[eInvoice Studio — EN 16931 Playground](https://hazemmarrakchi.github.io/einvoice-studio/)** | Free online validator for UBL 2.1 / Peppol BIS invoices: rule-level diagnostics with fix hints, visual structure explorer, 100% client-side privacy. Built for the Sept 2026 EU e-invoicing mandate. `TypeScript` `React` `EN 16931` `Vitest` |
 | **[3D Interactive Portfolio](https://hazemmarrakchi.github.io/portfolio/)** | Immersive WebGL experience built with React 19 + Three.js r185 — particle field, mouse-parallax camera, bilingual EN/FR, glassmorphism design system. `React` `Three.js` `TypeScript` `Tailwind` |
 
 ---
