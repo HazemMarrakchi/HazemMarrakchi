@@ -25,7 +25,6 @@ QUERY='query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     contributionsCollection(from: $from, to: $to) {
       totalCommitContributions
-      totalContributions
       contributionCalendar {
         weeks {
           contributionDays {
@@ -43,9 +42,12 @@ payload=$(jq -n --arg q "$QUERY" --arg login "$USER" --arg from "$FROM" --arg to
 contrib=$(curl -sS -H "$AUTH" -H "$JSON" -X POST "$API/graphql" --data "$payload")
 
 commits_1y=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalCommitContributions // 0')
-contributions_1y=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalContributions // 0')
-active_days=$(echo "$contrib" | jq '[.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[] | select(.contributionCount > 0)] | length')
-best_day=$(echo "$contrib" | jq '[.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[].contributionCount] | max // 0')
+contributions_1y=$(echo "$contrib" | jq -r '[.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[].contributionCount] | add // 0')
+active_days=$(echo "$contrib" | jq -r '[.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[] | select(.contributionCount > 0)] | length')
+best_day=$(echo "$contrib" | jq -r '([.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[].contributionCount] | max) // 0')
+
+echo "GraphQL response: $contrib"
+echo "commits=$commits_1y contributions=$contributions_1y active_days=$active_days best_day=$best_day"
 
 theme_colors() {
   if [ "$1" = "github_dark" ]; then
