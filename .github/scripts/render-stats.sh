@@ -25,9 +25,14 @@ QUERY='query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     contributionsCollection(from: $from, to: $to) {
       totalCommitContributions
-      totalPullRequestContributions
-      totalPullRequestReviewContributions
-      totalIssueContributions
+      totalContributions
+      contributionCalendar {
+        weeks {
+          contributionDays {
+            contributionCount
+          }
+        }
+      }
     }
   }
 }'
@@ -38,9 +43,9 @@ payload=$(jq -n --arg q "$QUERY" --arg login "$USER" --arg from "$FROM" --arg to
 contrib=$(curl -sS -H "$AUTH" -H "$JSON" -X POST "$API/graphql" --data "$payload")
 
 commits_1y=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalCommitContributions // 0')
-prs=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalPullRequestContributions // 0')
-reviews=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalPullRequestReviewContributions // 0')
-issues=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalIssueContributions // 0')
+contributions_1y=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalContributions // 0')
+active_days=$(echo "$contrib" | jq '[.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[] | select(.contributionCount > 0)] | length')
+best_day=$(echo "$contrib" | jq '[.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[].contributionCount] | max // 0')
 
 theme_colors() {
   if [ "$1" = "github_dark" ]; then
@@ -96,9 +101,9 @@ for theme in github_dark github; do
 
   write_card "$theme" "stats.svg" "ACTIVITY · LAST 12 MONTHS" \
     "${commits_1y:-0}" "Commits · 1 Year" \
-    "${prs:-0}" "Pull Requests" \
-    "${reviews:-0}" "Code Reviews" \
-    "${issues:-0}" "Issues Opened"
+    "${contributions_1y:-0}" "Contributions · 1 Year" \
+    "${active_days:-0}" "Active Days" \
+    "${best_day:-0}" "Best Day"
 done
 
 echo "Cards rendered:"
