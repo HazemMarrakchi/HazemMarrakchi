@@ -6,7 +6,6 @@ API="https://api.github.com"
 AUTH="Authorization: Bearer ${GH_TOKEN}"
 JSON="Accept: application/vnd.github+json"
 OUT="profile-summary-card-output"
-YEAR_AGO=$(date -u -d "1 year ago" +%Y-%m-%d)
 
 api_get() { curl -sS -H "$AUTH" -H "$JSON" "$@"; }
 jget() { echo "$1" | jq -r "$2 // 0"; }
@@ -19,10 +18,29 @@ followers=$(jget "$profile" '.followers')
 following=$(jget "$profile" '.following')
 stars=$(echo "$repos" | jq '[.[].stargazers_count] | add // 0')
 
-commits_1y=$(api_get -G "$API/search/commits" --data-urlencode "q=author:${USER} committer-date:>${YEAR_AGO}" --data-urlencode "per_page=1" | jget '.total_count')
-prs=$(api_get -G "$API/search/issues" --data-urlencode "q=author:${USER} type:pr" --data-urlencode "per_page=1" | jget '.total_count')
-issues=$(api_get -G "$API/search/issues" --data-urlencode "q=author:${USER} type:issue" --data-urlencode "per_page=1" | jget '.total_count')
-reviews=$(api_get -G "$API/search/issues" --data-urlencode "q=reviewed-by:${USER} type:pr" --data-urlencode "per_page=1" | jget '.total_count')
+FROM=$(date -u -d "1 year ago" +%Y-%m-%dT%H:%M:%SZ)
+TO=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+QUERY='query($login: String!, $from: DateTime!, $to: DateTime!) {
+  user(login: $login) {
+    contributionsCollection(from: $from, to: $to) {
+      totalCommitContributions
+      totalPullRequestContributions
+      totalPullRequestReviewContributions
+      totalIssueContributions
+    }
+  }
+}'
+
+payload=$(jq -n --arg q "$QUERY" --arg login "$USER" --arg from "$FROM" --arg to "$TO" \
+  '{query: $q, variables: {login: $login, from: $from, to: $to}}')
+
+contrib=$(curl -sS -H "$AUTH" -H "$JSON" -X POST "$API/graphql" --data "$payload")
+
+commits_1y=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalCommitContributions // 0')
+prs=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalPullRequestContributions // 0')
+reviews=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalPullRequestReviewContributions // 0')
+issues=$(echo "$contrib" | jq -r '.data.user.contributionsCollection.totalIssueContributions // 0')
 
 theme_colors() {
   if [ "$1" = "github_dark" ]; then
