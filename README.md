@@ -1,4 +1,4 @@
-﻿<img src="./banner.svg" alt="Hazem Marrakchi — Software Engineer & Full Stack Developer" width="100%"/>
+<img src="./banner.svg" alt="Hazem Marrakchi — Software Engineer & Full Stack Developer" width="100%"/>
 
 <p align="center">
   <picture>
@@ -55,14 +55,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/profile-details.svg?v=20260821" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/profile-details.svg?v=20260821" />
-    <img src="./profile-summary-card-output/github_dark/profile-details.svg?v=20260821" alt="Profile details card" width="49%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/profile-details.svg?v=20260919" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/profile-details.svg?v=20260919" />
+    <img src="./profile-summary-card-output/github_dark/profile-details.svg?v=20260919" alt="Profile details card" width="49%"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/stats.svg?v=20260821" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/stats.svg?v=20260821" />
-    <img src="./profile-summary-card-output/github_dark/stats.svg?v=20260821" alt="GitHub statistics card" width="49%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-summary-card-output/github_dark/stats.svg?v=20260919" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-summary-card-output/github/stats.svg?v=20260919" />
+    <img src="./profile-summary-card-output/github_dark/stats.svg?v=20260919" alt="GitHub statistics card" width="49%"/>
   </picture>
 </p>
 
@@ -72,9 +72,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HazemMarrakchi/HazemMarrakchi/output/github-contribution-grid-snake-dark.svg?v=20260821" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HazemMarrakchi/HazemMarrakchi/output/github-contribution-grid-snake-light.svg?v=20260821" />
-    <img src="https://raw.githubusercontent.com/HazemMarrakchi/HazemMarrakchi/output/github-contribution-grid-snake-dark.svg?v=20260821" alt="Contribution snake animation eating the contribution graph" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HazemMarrakchi/HazemMarrakchi/output/github-contribution-grid-snake-dark.svg?v=20260919" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HazemMarrakchi/HazemMarrakchi/output/github-contribution-grid-snake-light.svg?v=20260919" />
+    <img src="https://raw.githubusercontent.com/HazemMarrakchi/HazemMarrakchi/output/github-contribution-grid-snake-dark.svg?v=20260919" alt="Contribution snake animation eating the contribution graph" width="100%"/>
   </picture>
 </p>
 
