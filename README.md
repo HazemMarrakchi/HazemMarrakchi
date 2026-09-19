@@ -19,10 +19,11 @@
 
 ### Engineering Focus
 
+- **Distributed, event-driven platforms** — Kafka + Flink streaming pipelines, Spring Boot microservices, 1M+ entity simulation engines
 - Full stack web platforms — **Angular / React** frontends, **Node.js · NestJS · Spring Boot · FastAPI** backends
 - **Regulatory-compliance engineering**: EU e-invoicing standards (EN 16931, UBL 2.1 / Peppol BIS, XRechnung) turned into production software
-- **AI integration** in real products: prediction features with Scikit-learn on production data flows
-- Service-oriented architecture, secure REST APIs, SQL/NoSQL data modeling
+- **AI integration** in real products: risk prediction, RAG assistants and anomaly detection on production data flows
+- Production operations: Docker, Kubernetes + Helm, Terraform (Azure AKS), Prometheus/Grafana observability, CI/CD on GitHub Actions & GitLab
 - EUR-ACE® accredited Software Engineering degree (ESSAT Gabès)
 
 ---
@@ -31,11 +32,11 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,ts,js,python,angular,react,nodejs,express,spring,fastapi&perline=10" alt="languages & frameworks"/>
+    <img src="https://skillicons.dev/icons?i=java,ts,js,python,angular,react,nodejs,express,spring,fastapi,kafka&perline=11" alt="languages & frameworks"/>
   </a>
   <br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mongodb,mysql,docker,azure,linux,tailwind,nestjs,bootstrap,php,cpp&perline=10" alt="data, devops & tools"/>
+    <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,mysql,docker,kubernetes,terraform,azure,linux,grafana,prometheus&perline=11" alt="data, streaming & devops"/>
   </a>
 </p>
 
@@ -45,6 +46,8 @@
 
 | | |
 |---|---|
+| **[🌍 GAIA — The Living Planet Simulation](https://github.com/HazemMarrakchi/Gaia)** | Real-time distributed platform simulating 1M+ entities/tick across 4 coupled domains (energy, cities, transport, finance) — crisis in one domain propagates mechanically to the others. Java 21 engine, Kafka + Apache Flink into PostGIS, what-if scenario engine with deterministic replay, FastAPI ML service, 3D mission-control globe (Angular 19 + Three.js). Docker Compose, Helm, Terraform (AKS), GitLab CI. `Java` `Spring Boot` `Kafka` `Flink` `PostGIS` `Angular` `Three.js` |
+| **[📡 TelemetryHub — Industrial IoT Supervision SaaS](https://github.com/HazemMarrakchi/telemetryhub)** | Multi-tenant SaaS on 6 Spring Boot microservices: JWT/OAuth2 per-tenant isolation, high-frequency telemetry into TimescaleDB, rule-based alerting, FastAPI RAG over fleet data, Angular 18 ops console. Helm + Terraform, Prometheus/Grafana, CI/CD. `Spring Boot` `Kafka` `TimescaleDB` `Angular` `RAG` |
 | **[Facturia — EU E-Invoicing SaaS](https://hazemmarrakchi.github.io/facturia/)** | Production-grade e-invoicing platform: EN 16931 / Peppol BIS / XRechnung documents, invoice lifecycle with per-org numbering, GDPR audit trail and an AI copilot. NestJS + React monorepo — live demo backed by a real deployed API. `NestJS` `React` `TypeScript` `Drizzle` `Playwright` `Docker` |
 | **[eInvoice Studio — EN 16931 Playground](https://hazemmarrakchi.github.io/einvoice-studio/)** | Free online validator for UBL 2.1 / Peppol BIS invoices: rule-level diagnostics with fix hints, visual structure explorer, 100% client-side privacy. Built for the Sept 2026 EU e-invoicing mandate. `TypeScript` `React` `EN 16931` `Vitest` |
 | **[3D Interactive Portfolio](https://hazemmarrakchi.github.io/portfolio/)** | Immersive WebGL experience built with React 19 + Three.js r185 — particle field, mouse-parallax camera, bilingual EN/FR, glassmorphism design system. `React` `Three.js` `TypeScript` `Tailwind` |
