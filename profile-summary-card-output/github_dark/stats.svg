@@ -3,12 +3,12 @@
   <rect x="0.5" y="0.5" width="429" height="169" rx="12" fill="#0A0F1C" stroke="#1C2740"/>
   <rect x="14" y="14" width="402" height="4" rx="2" fill="url(#acc_github_dark_ACTIVITY____LAST_12_MONTHS_)"/>
   <text x="24" y="48" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#22D3EE">ACTIVITY · LAST 12 MONTHS</text>
-  <text x="24" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">248</text>
+  <text x="24" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">0</text>
   <text x="24" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Commits · 1 Year</text>
   <text x="230" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">0</text>
-  <text x="230" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Pull Requests</text>
+  <text x="230" y="112" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Contributions · 1 Year</text>
   <text x="24" y="148" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">0</text>
-  <text x="24" y="168" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Code Reviews</text>
+  <text x="24" y="168" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Active Days</text>
   <text x="230" y="148" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E2E8F0">0</text>
-  <text x="230" y="168" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Issues Opened</text>
+  <text x="230" y="168" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94A3B8">Best Day</text>
 </svg>
